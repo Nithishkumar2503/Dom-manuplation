@@ -10,22 +10,13 @@
 </svelte:head>
 
 <section>
-	<h1>
 		<span class="welcome">
 			<picture>
-				<source srcset={welcome} type="image/webp" />
-				<img src={welcome_fallback} alt="Welcome" />
+				<!-- <source srcset={welcome} type="image/webp" /> -->
+				<h1>Welcome to DOM manuplation</h1>
 			</picture>
 		</span>
 
-		to your new<br />SvelteKit app
-	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
-	<Counter />
 </section>
 
 <style>

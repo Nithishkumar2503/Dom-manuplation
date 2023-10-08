@@ -15,7 +15,8 @@
 	</footer>
 </div>
 
-<style>
+<style global>
+	@import './style.css';
 	.app {
 		display: flex;
 		flex-direction: column;
@@ -51,3 +52,4 @@
 		}
 	}
 </style>
+
